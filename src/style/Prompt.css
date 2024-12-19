@@ -1,0 +1,8 @@
+.prompts{
+   height: 70%;
+   overflow: auto;
+}
+
+.user-prompts{
+    background-color: #333;
+}

@@ -1,0 +1,43 @@
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    /* background-color: #890709; */
+    /* border: none; */
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  .prompt-button {
+    /* position: absolute;
+    right: 15px;
+    bottom: 10px; */
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #890709;
+    /* font-size: 20px; */
+ }
+/* 
+ .btn-label{
+  color: #890709;
+ } */
+
+ .googleSignIn {
+  background-color: transparent;
+  border: 2px solid #890709;
+  border-radius: 25px;
+  color: #890709;
+  width: 80%;
+ }
+
+ .googleSignIn:hover{
+  background-color: #890709;
+  color: #f5f5f5;
+ }

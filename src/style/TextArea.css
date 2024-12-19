@@ -1,0 +1,53 @@
+.textarea-container {
+    display: flex;
+    position: relative;
+    /* bottom: 0; */
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 50px; 
+    background-color: #f9f9f9; 
+    /* padding: 5px 0; */
+    padding: 20px 15px;
+    width: 50%; 
+    transition: height 0.8s ease, padding 0.3s ease;
+  }
+  
+  #prompt-textarea {
+    width: 80%;
+    /* max-width: 800px;  */
+    /* min-height: 50px; */
+    /* max-height: 150px;  */
+    resize: none; 
+    padding: 10px 0;
+    border:none;
+    border-radius: 10px; 
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: transparent; 
+    color: #333; /* Dark text for readability */
+    outline: none;
+    box-shadow: none;
+    transition: height 0.8s ease, padding 0.3s ease;
+  }
+  
+  .chatgpt-textarea:focus {
+    border-color: #890709; /* Brand color for focus */
+    box-shadow: 0 0 5px rgba(137, 7, 9, 0.5); /* Subtle glow effect */
+  }
+  
+  .chatgpt-textarea::placeholder {
+    color: #aaa; /* Light color for placeholder text */
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .chatgpt-textarea:disabled {
+    background-color: #f0f0f0; /* Grey background when disabled */
+    color: #999; /* Light text color */
+    border-color: #ccc; /* Subtle border color */
+    cursor: not-allowed; /* Indicate non-interactive state */
+  }
+
+  /* textarea::-webkit-scrollbar {
+    display: none; 
+  } */
+  

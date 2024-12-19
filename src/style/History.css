@@ -1,0 +1,7 @@
+.prompt-history{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    overflow-y: auto;
+    /* background-color: blue; */
+}
